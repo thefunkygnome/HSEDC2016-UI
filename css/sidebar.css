@@ -1,0 +1,47 @@
+.sidebar {
+  position: fixed;
+  z-index: 1;
+
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  border-right: 1px solid lightgrey;
+  overflow: hidden;
+}
+
+.sidebarMenu {
+  width: calc(100% + 20px);
+  height: 100%;
+  padding-right: 20px;
+  overflow-y: scroll;
+}
+
+.sidebarMenuItem > div {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  line-height: 30px;
+}
+
+.sidebarMenuItem > div:hover {
+  background: lightgrey;
+}
+
+.sidebarMenuItem:hover .sidebarSubmenu {
+  display: block;
+}
+
+.sidebarSubmenu {
+  display: none;
+}
+
+.sidebarSubmenuItem {
+  height: 50px;
+  padding: 10px 10px 10px 20px;
+  line-height: 30px;
+}
+
+.sidebarSubmenuItem:hover {
+  background: lightgrey;
+}
