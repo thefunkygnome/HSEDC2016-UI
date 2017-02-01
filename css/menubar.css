@@ -36,16 +36,41 @@
   padding: 10px 0;
   width: 220px;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
-
 }
 
 .userMenu:hover ul {
   display: block;
 }
 
+.userMenu ul:before,
+.userMenu ul:after {
+  position: absolute;
+  display: block;
+  content: '';
+  background: white;
+}
+
+.userMenu ul:before {
+  top: -10px;
+  right: 15px;
+  width: 20px;
+  height: 20px;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.15);
+  transform: rotate(45deg);
+}
+
+.userMenu ul:after {
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 20px;
+}
+
 .userMenu li {
   padding: 0 10px;
   line-height: 50px;
+  position: relative;
+  z-index: 1;
 }
 
 .userMenu li:hover {
