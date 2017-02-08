@@ -1,4 +1,6 @@
 .compact .menubar {
   width: calc(100% - 60px);
   margin-left: 60px;
+  background: white;
+  z-index: 1;
 }

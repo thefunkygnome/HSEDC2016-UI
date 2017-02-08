@@ -1,4 +1,21 @@
 .content {
-  padding-top: 70px;
-  padding-left: 300px;
+  padding: 80px  10px 10px 310px;
+}
+
+.content .col,
+.content .col-5,
+.content .col-6 {
+  margin-top: 60px;
+  background: rgba(0, 0, 0, .05);
+  border: 1px solid black;
+  text-align: center;
+  padding: 60px;
+}
+
+.content .row {
+  padding-bottom: 10px;
+}
+
+.content .container {
+  margin-bottom: 50px;
 }

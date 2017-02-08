@@ -9,6 +9,10 @@
   overflow: hidden;
 }
 
+.sidebar ul {
+  margin: 0;
+}
+
 .sidebarMenu {
   width: calc(100% + 20px);
   height: 100%;
